@@ -24,7 +24,6 @@ a:hover{
 header#header{
 
 }
-
  .menu-header-container{
   background:white;
   height:100px;
@@ -60,6 +59,31 @@ header#header{
 
 
 **********************/
+
+.portraitBojack h1{
+  color: black;
+  font-weight: bold;
+  text-align: left;
+}
+.portraitBojack h2{
+  color: black;
+}
+.portraitBojack img{
+  width: 100%;
+}
+.portraitBojack p{
+  text-align: justify;
+}
+.image_portraitBojack{
+  width: 100%;
+  height: 550px;
+}
+.bojackParticiper h1{
+  text-align: center;
+  color:black;
+  font-size: 32px;
+}
+
 .fadeEffect{
   background:black;
   opacity: 0.5;
@@ -85,6 +109,29 @@ article:nth-child(1n+2) .img_actu{
 }
 .slick-arrow{
   display: none !important;
+}
+.bojackProgramme h1{
+  color:black;
+  font-size: 35px;
+  text-align:left;
+}
+.bojackProgramme p{
+  font-size: 20px !important;
+}
+.join{
+  clear: both;
+  display:block;
+  text-align:center;
+  margin:0 auto;
+  padding: 8px 24px;
+  background: red;
+  border-radius: 25px;
+  color: white;
+  width: 150px;
+  font-size: 18px;
+}
+a:hover{
+  color:inherit !important;
 }
 h1{
   text-transform:uppercase;
@@ -135,7 +182,7 @@ h3{
   background:url('../img/movement.jpg');
 }
 .actus{
-  
+
 }
 .twitter{
   height:640px;
@@ -197,7 +244,10 @@ footer.footer{
   background:#181818;
   margin-top:50px;
 }
-
+.ani_glow{
+  opacity: 0;
+  display: none !important;
+}
 @media screen and (max-width: 549px){
   .menu_header li{
     padding:5px 10px;
