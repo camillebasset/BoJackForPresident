@@ -60,6 +60,17 @@ header#header{
 
 
 **********************/
+.portraitBojack h1{
+  color: black;
+  text-align: center;
+}
+.portraitBojack h2{
+  color: black;
+}
+.image_portraitBojack{
+  width: 100%;
+  height: 550px;
+}
 .fadeEffect{
   background:black;
   opacity: 0.5;
@@ -135,7 +146,7 @@ h3{
   background:url('../img/movement.jpg');
 }
 .actus{
-  
+
 }
 .twitter{
   height:640px;
