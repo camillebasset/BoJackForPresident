@@ -18,6 +18,18 @@
 		        		<img src="" class="col-md-6 text-center" alt="">
 	        		</div>
 	        	</div>
+
+        	<?php 
+          $args=array(
+              'theme_location' => 'footer', // nom du slug
+              'menu' => 'footer_fr', // nom à donner cette occurence du menu
+              'menu_class' => 'footer container', // class à attribuer au menu
+              'menu_id' => 'menu_id' // id à attribuer au menu
+              // voir les autres arguments possibles sur le codex
+          );
+          echo '</footer>';
+          wp_nav_menu($args);
+          ?>
         	
      	   </div>
         </footer>
