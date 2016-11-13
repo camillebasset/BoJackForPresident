@@ -37,6 +37,7 @@ header#header{
  .menu_header li{
   display:inline-block;
   padding:0px 20px;
+  width:160px;
 }
 
 .logo{
@@ -44,8 +45,14 @@ header#header{
 }
  .menu_header li a{
   color:#181818;
-  font-size: 18px;
-} 
+  font-size: 16px;
+}
+#menu-item-35 a{
+  padding: 8px 24px;
+  background: red;
+  border-radius: 25px;
+  color: white;
+}
 /*********************
 
 
@@ -128,7 +135,7 @@ h3{
   background:url('../img/movement.jpg');
 }
 .actus{
-  background:url('../img/actu.jpg');
+  
 }
 .twitter{
   height:640px;

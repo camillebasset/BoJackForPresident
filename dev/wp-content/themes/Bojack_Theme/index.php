@@ -39,15 +39,37 @@ get_header(); //appel du template header.php  ?>
             </div>
         </div>
     </div>
-
+    <?php 
+        $args=array(
+        'post_type' => 'actualite',
+        'posts_per_page' => 1 ,
+        'order'   => 'ASC'
+    );
+  // The Query
+  $the_query = new WP_Query( $args );
+  // The Loop
+  if ( $the_query->have_posts() ) {
+    
+    while ( $the_query->have_posts() ) 
+    {
+        $the_query->the_post();
+        $thumb_actu = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
+    ?>
     <div class="col-md-6 col-xs-12">
-        <div class="actus">
+        <div class="actus" style="background-image: url('<?php echo $thumb_actu['0'];?>')" >
             <div class="fadeEffect">
-                <h1>Actualités</h1>
+                <a href="actualite"><h1>Actualités</h1></a>
             </div>
         </div>
     </div>
-
+    <?php      
+    }
+    /* Restore original Post Data */
+    wp_reset_postdata();
+    } else {
+    // no posts found
+    }
+    ?>
     <div class="col-md-6 col-xs-12">
         <div class="twitter">
         </div>
