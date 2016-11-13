@@ -8,15 +8,15 @@
  ?>
  <section class="container">
    <div class="col-md-4">
-     <h2><?= $titre_1 ?></h2>
+     <img src="<?= $titre_1['url'] ?>" alt="" />
      <p><?= $contenu_1?></p>
    </div>
    <div class="col-md-4">
-     <h2><?= $titre_2 ?></h2>
+     <img src="<?= $titre_2['url'] ?>" alt="" />
      <p><?= $contenu_2?></p>
    </div>
    <div class="col-md-4">
-     <h2><?= $titre_3 ?></h2>
+     <img src="<?= $titre_3['url'] ?>" alt="" />
      <p><?= $contenu_3?></p>
    </div>
  </section>
