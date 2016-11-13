@@ -62,10 +62,17 @@ header#header{
 **********************/
 .portraitBojack h1{
   color: black;
-  text-align: center;
+  font-weight: bold;
+  text-align: left;
 }
 .portraitBojack h2{
   color: black;
+}
+.portraitBojack img{
+  width: 100%;
+}
+.portraitBojack p{
+  text-align: justify;
 }
 .image_portraitBojack{
   width: 100%;
@@ -97,7 +104,7 @@ article:nth-child(1n+2) .img_actu{
 .slick-arrow{
   display: none !important;
 }
-.bojackProgramme h1{ 
+.bojackProgramme h1{
   color:black;
   font-size: 35px;
   text-align:left;
