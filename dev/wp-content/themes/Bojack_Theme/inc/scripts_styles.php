@@ -50,8 +50,13 @@ wp_enqueue_style( 'google-font' );
 // enregistrement d'un nouveau style
 wp_register_style( 'main_style', get_template_directory_uri() . '/styles/main.css' );
 
+// css dédié
+wp_register_style( 'footer_style', get_template_directory_uri() . '/styles/footer.css' );
+
 // appel du style dans la page
 wp_enqueue_style( 'main_style' );
+wp_enqueue_style( 'footer_style' );
 
 }
+
 add_action( 'wp_enqueue_scripts', 'ajout_scripts' );

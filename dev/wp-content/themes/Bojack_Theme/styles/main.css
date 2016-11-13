@@ -193,8 +193,7 @@ h3{
     FOOTER
 
 ***************/
-footer#footer{
-  height:100px;
+footer.footer{
   background:#181818;
   margin-top:50px;
 }
