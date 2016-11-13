@@ -24,6 +24,9 @@ a:hover{
 header#header{
 
 }
+.home .fadeEffect{
+  position: relative;
+}
  .menu-header-container{
   background:white;
   height:100px;
@@ -60,6 +63,48 @@ header#header{
 
 
 **********************/
+.twitterBloc{
+  background:url('../img/twitter_feed.png');
+  background-size: 100%;
+  margin-top: 30px;
+  background-position: center;
+  height:300px;
+}
+.instaBloc{
+  margin-top: 30px;
+  background:url('../img/instagram.png');
+  background-size: 100%;
+  background-position: center;
+  height:300px;
+}
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  text-align: center;
+  line-height: 300px;
+  font-size: 28px !important;
+  background: rgba(222, 222, 222, 0.72);
+  color: #444;
+  visibility: hidden;
+  opacity: 0;
+  text-transform: uppercase;
+  -webkit-transition: visibility opacity 0.5s;
+}
+.twitterBloc:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+.instaBloc:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+p.follow{
+  text-align:center;
+}
 .portraitBojack h1{
   color: black;
   font-weight: bold;
