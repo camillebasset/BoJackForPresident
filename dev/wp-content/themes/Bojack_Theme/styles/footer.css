@@ -1,0 +1,30 @@
+.footer {
+	color: #fff;
+	padding: 50px 0;
+}
+
+.footer-links {
+	padding: 0;
+}
+
+.footer-links li {
+	padding: 0 10px;
+	display: inline-block;
+}
+
+.footer-links li a {
+	color: #fff;
+	font-weight: 700;
+}
+
+.footer-copyright {
+	font-style: italic;
+}
+
+.footer-donate {
+	background-color: #FF0000;
+	padding: 10px 20px;
+	border-radius: 20px;
+	display: inline-block;
+	color: #fff;
+}
