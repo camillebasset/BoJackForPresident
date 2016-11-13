@@ -1,6 +1,6 @@
 body,html{
   margin:0;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   height:100%;
 }
 p{
@@ -44,10 +44,11 @@ header#header{
 }
  .menu_header li a{
   color:#181818;
-  font-size: 16px;
+  font-weight: bold;
+  font-size: 15px;
 }
 #menu-item-35 a{
-  padding: 8px 24px;
+  padding: 8px 18px;
   background: red;
   border-radius: 25px;
   color: white;
@@ -59,7 +60,6 @@ header#header{
 
 
 **********************/
-
 .portraitBojack h1{
   color: black;
   font-weight: bold;
@@ -85,8 +85,11 @@ header#header{
 }
 
 .fadeEffect{
-  background:black;
+  background: black;
+  position: absolute;
   opacity: 0.5;
+  left: 0;
+  right: 0;
 }
 .slick-slide img{
   width:100% !important;
@@ -97,8 +100,9 @@ header#header{
 }
 .img_actu h1{
   text-align: center;
-  color:black;
-  margin:0;
+  color: white;
+  margin: 0;
+  font-size: 22px;
   line-height: 300px;
 }
 article{

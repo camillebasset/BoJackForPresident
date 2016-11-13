@@ -18,6 +18,8 @@ include_once('inc/theme_support.php');
 //AJAX
 include_once('inc/ajax.php');
 
+remove_filter('the_content', 'wpautop');
+
 function the_excerpt_max_charlength($charlength) {
    $excerpt = get_the_excerpt();
    $charlength++;
