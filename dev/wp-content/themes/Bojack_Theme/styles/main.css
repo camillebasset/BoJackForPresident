@@ -76,6 +76,7 @@ header#header{
   color:black;
   font-size: 32px;
 }
+
 .fadeEffect{
   background:black;
   opacity: 0.5;
@@ -174,7 +175,7 @@ h3{
   background:url('../img/movement.jpg');
 }
 .actus{
-  
+
 }
 .twitter{
   height:640px;
