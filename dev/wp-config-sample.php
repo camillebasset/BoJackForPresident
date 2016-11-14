@@ -28,7 +28,7 @@ define('DB_USER', 'votre_utilisateur_de_bdd');
 define('DB_PASSWORD', 'votre_mdp_de_bdd');
 
 /** Adresse de l’hébergement MySQL. */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'localhost:8888');
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define('DB_CHARSET', 'utf8');
