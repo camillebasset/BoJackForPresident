@@ -3,5 +3,5 @@
  ?>
 
   <div class="col-md-12">
-    <h1><?= $titre; ?></h1>
+    <h1><?= $titre; ?></h1>   
   </div>
