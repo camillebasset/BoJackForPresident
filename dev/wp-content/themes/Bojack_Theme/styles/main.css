@@ -15,6 +15,9 @@ p{
 a:hover{
   text-decoration: none !important;
 }
+.current_page_item a{
+  color:red !important;
+}
 /**************
 
     HEADER
@@ -35,6 +38,12 @@ header#header{
   z-index: 3;
   line-height: 100px;
 }
+.page-template .menu-header-container{
+  position: relative;
+}
+.page-template-portrait_bojack .menu-header-container{
+  position: absolute;
+}
 .menu_header{
   list-style:none;
   text-align: center;
@@ -53,11 +62,11 @@ header#header{
   font-weight: bold;
   font-size: 15px;
 }
-#menu-item-35 a{
+.menu-item-35 a{
   padding: 8px 18px;
   background: red;
   border-radius: 25px;
-  color: white;
+  color: white !important;
 }
 /*********************
 TIMELINE
@@ -309,7 +318,10 @@ p.follow{
 }
 .image_portraitBojack{
   width: 100%;
-  height: 550px;
+  height: 100%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
 }
 .bojackParticiper h1{
   text-align: center;
@@ -506,6 +518,9 @@ h3{
   background:#FFFFFF;
   color:#F56B2A;
 }
+.logomobile{
+  display: none;
+}
 /***************
 
     FOOTER
@@ -519,12 +534,36 @@ footer.footer{
   opacity: 0;
   display: none !important;
 }
-@media screen and (max-width: 549px){
+@media screen and (max-width: 1200px){
   .menu_header li{
-    padding:5px 10px;
+    padding:0px 5px;
+  }
+  .menu-header-container{
+    height:auto;
+    line-height: 0;
   }
   .menu_header li a{
     font-size: 14px;
+  }
+  .responsive-navigation_menu *{
+    left:0;
+  }
+  .responsive-navigation_nav ul{
+    margin:0px !important;
+  }
+  .responsive-navigation_nav li{
+    text-align: center;
+    text-transform: uppercase;
+    padding:3px;
+  }
+ #menu-item-35 a{
+    background:white !important;
+  }
+  .responsive-navigation_nav li a{
+    color:black !important;
+  }
+  #menu-item-79{
+    display: none;
   }
   h1{
     text-align:center;
@@ -534,5 +573,14 @@ footer.footer{
   }
   .movement h1, .actus h1{
     font-size: 25px;
+  }
+  .logo {
+    width: 80px;
+    margin-top: 4px;
+  }
+  .responsive-navigation_nav a:hover{
+    border-radius: 0!important;
+    color:black !important;
+    background:white !important;
   }
 }

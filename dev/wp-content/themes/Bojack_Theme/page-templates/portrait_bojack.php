@@ -11,7 +11,7 @@ $image = get_field('image');
 
 if( !empty($image) ): ?>
 
-	<img class="image_portraitBojack" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+	<div class="image_portraitBojack" style="background:url('<?php echo $image['url']; ?>');" alt="<?php echo $image['alt']; ?>" /></div>
 
 <?php endif; ?>
 <section class="container">
