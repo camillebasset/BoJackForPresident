@@ -331,6 +331,34 @@ p.follow{
   width:100% !important;
   height: 100vh;
 }
+.absolute-text-centered{
+  height: 100%;
+  width: 100%;
+  color: white;
+  position: absolute;
+}
+.slide{
+  position: relative;
+}
+.slide__caption {
+  bottom: 0;
+  min-height: 200px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 99999;
+  text-align: center;
+  color:white;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+.slideimg{
+  width: 100% !important;
+  height: 100vh !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .img_actu{
   height:300px;
 }

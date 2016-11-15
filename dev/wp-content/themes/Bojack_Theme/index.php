@@ -11,7 +11,8 @@ get_header(); //appel du template header.php  ?>
 <div class="row bojack_home">
     <div class="col-xs-12">
         <div class="last_actu" style="background-image: url('<?php echo $thumb['0'];?>')">
-            <div class="fadeEffect">
+            <a href="participer">
+                <div class="fadeEffect">
                 <?php
                     // boucle WordPress
                     if (have_posts()){
@@ -28,7 +29,8 @@ get_header(); //appel du template header.php  ?>
                     <?php
                     }
                 ?>
-            </div>
+                </div>
+            </a>
         </div>
     </div>
 
