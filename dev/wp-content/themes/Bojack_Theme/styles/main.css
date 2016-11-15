@@ -30,6 +30,9 @@ header#header{
  .menu-header-container{
   background:white;
   height:100px;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
   line-height: 100px;
 }
 .menu_header{
@@ -321,9 +324,12 @@ p.follow{
   left: 0;
   right: 0;
 }
+#slider{
+  height: 100vh;
+}
 .slick-slide img{
   width:100% !important;
-  height: 100%;
+  height: 100vh;
 }
 .img_actu{
   height:300px;
