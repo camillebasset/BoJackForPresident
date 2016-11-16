@@ -26,7 +26,7 @@ get_header(); //appel du template header.php  ?>
         </div>
         <div class="col-md-6">
         	<div class="col-md-12 twitterBloc">
-        		<p class="imgDescription">Twitter</p>
+        		<p class="imgDescription"><a target="_blank" href="https://twitter.com/BoJackHorseman">Twitter</a></p>
         	</div>
         </div>
         <div class="col-md-6">

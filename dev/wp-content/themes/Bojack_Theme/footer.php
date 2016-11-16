@@ -34,7 +34,7 @@
 		        		<a href="" class="text-center footer-donate">Faire un don</a>
 	        		</div>
 	        		<div class="col-md-6 text-center">
-		        		<img class="footer-logo" src="wp-content\themes\Bojack_Theme\img\bojackhorseman.logo.png" class="col-md-6 text-center" alt="">
+		        		<img class="footer-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BoJack_Horseman_Logo.svg/2000px-BoJack_Horseman_Logo.svg.png" class="col-md-6 text-center" alt="">
 	        		</div>
 	        	</div>
 
