@@ -11,7 +11,6 @@ get_header(); //appel du template header.php  ?>
 <div class="row bojack_home">
     <div class="col-xs-12">
         <div class="last_actu" style="background-image: url('<?php echo $thumb['0'];?>')">
-            <a href="participer">
                 <div class="fadeEffect">
                 <?php
                     // boucle WordPress
@@ -30,7 +29,6 @@ get_header(); //appel du template header.php  ?>
                     }
                 ?>
                 </div>
-            </a>
         </div>
     </div>
 
