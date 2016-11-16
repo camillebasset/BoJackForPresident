@@ -31,9 +31,11 @@ get_header(); //appel du template header.php  ?>
     </div>
 
     <div class="col-md-6 col-xs-12">
-        <div class="movement">
-            <h1>Rejoignez le mouvement</h1>
-        </div>
+        <a href="programme">
+            <div class="movement">
+                <h1>Rejoignez le mouvement</h1>
+            </div>
+        </a>
     </div>
     <?php 
         $args=array(
@@ -71,13 +73,17 @@ get_header(); //appel du template header.php  ?>
     </div>
 
     <div class="col-md-6 col-xs-12">
-        <div class="instagram">
-        </div>
+        <a href="https://www.instagram.com/bojackhorseman/" target="_blank">
+            <div class="instagram">
+            </div>
+        </a>
     </div>
 
     <div class="col-md-6 col-xs-12 boutique_container">
-        <div class="boutique">
-        </div>
+        <a href="shop">
+            <div class="boutique">
+            </div>
+        </a>
     </div>
 
 

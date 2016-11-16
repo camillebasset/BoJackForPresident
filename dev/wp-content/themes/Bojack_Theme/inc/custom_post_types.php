@@ -1,4 +1,56 @@
 <?php
+
+add_action('init', 'create_custom_post_type_membres');
+
+function create_custom_post_type_membres(){
+  
+  $labels = array(
+        'name'               => 'Membres',
+        'singular_name'      => 'membre',
+        'all_items'          => 'Tous les membres',
+        'add_new'            => 'Ajouter un membre',
+        'add_new_item'       => 'Ajouter un nouveau membre',
+        'edit_item'          => 'Modifier le membre',
+        'new_item'           => 'Nouveau membre',
+        'view_item'          => "Voir le membre",
+        'search_items'       => 'Rechercher un membre',
+        'not_found'          => 'Pas de résultat',
+        'not_found_in_trash' => 'Pas de résultat',
+        'parent_item_colon'  => 'membre parente:',
+        'menu_name'          => 'Membres',
+    );
+
+    $args = array(
+        'labels'              => $labels,
+        'hierarchical'        => false,
+        'supports'            => array( 'title','thumbnail','editor'),
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'menu_position'       => 3,
+        'menu_icon'           => 'dashicons-heart',
+        'show_in_nav_menus'   => true,
+        'publicly_queryable'  => true,
+        'exclude_from_search' => false,
+        'has_archive'         => false,
+        'query_var'           => true,
+        'can_export'          => true,
+        'rewrite'             => array( 'slug' => 'membre' ),
+        'capabilities' => array(
+                          'publish_post' => 'publish_membre',
+                          'edit_others_post' => 'edit_others_membre',
+                          'delete_post' => 'delete_membre',
+                          'delete_others_post' => 'delete_others_membre',
+                          'read_private_post' => 'read_private_membre',
+                          'delete_post' => 'delete_membre',
+                          'read_post' => 'read_membre',
+                          'edit_post' => 'edit_membre'
+                              ),
+
+    );
+    register_post_type( 'membre', $args );
+}
+
 add_action('init', 'create_custom_post_type_actualites');
 
 function create_custom_post_type_actualites(){

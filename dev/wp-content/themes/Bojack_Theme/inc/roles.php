@@ -27,4 +27,11 @@ function create_new_role(){
     $role->add_cap('edit_others_actualite');
     $role->add_cap('publish_other_actualites');
     $role->add_cap('read_actualite');
+
+
+
+    
+
 }
+    $role = get_role( 'administrator');
+$role->add_cap('edit_membre');

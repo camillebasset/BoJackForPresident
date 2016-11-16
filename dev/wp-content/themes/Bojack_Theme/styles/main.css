@@ -9,11 +9,59 @@ body,html{
 p{
   font-size: 16px !important;
 }
+.devenir_membre{
+  color:black;
+  text-align: center;
+}
+.emptyMembres{
+  text-align: center;
+  display: block;
+}
 .responsiveImage img{
   max-width:100%;
   height:auto;
   margin: 0 auto;
   display: block;
+}
+.updated p{
+  color:red;
+  text-align: center;
+}
+.red{
+  color:red;
+}
+.form-membre{
+  padding-left: 0;
+  padding-right: 0;
+}
+.bojackProgramme a:hover{
+  color:white !important;
+}
+.listMembres ul{
+  padding-left:0; 
+  margin-top: 50px;
+}
+.listMembres li{
+  list-style: none;
+  background:#ececec;
+  display: inline-block;
+  padding:15px;
+}
+.listMembres h2{
+  color:black;
+}
+.acf-field{
+  padding-left: 0 !important;
+}
+.acf-form-submit input{
+  background: red;
+  padding:10px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 150px;
+  border:none;
+  color:white;
 }
 a:hover{
   text-decoration: none !important;
@@ -474,6 +522,7 @@ h3{
 }
 .twitter{
   height:640px;
+  border:1px solid #dedede;
 }
 .instagram{
   background:url(../img/instagram.png);
