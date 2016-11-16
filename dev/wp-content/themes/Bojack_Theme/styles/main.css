@@ -62,7 +62,7 @@ header#header{
   font-weight: bold;
   font-size: 15px;
 }
-.menu-item-35 a{
+.menu-item-84 a{
   padding: 8px 18px;
   background: red;
   border-radius: 25px;
@@ -556,7 +556,7 @@ footer.footer{
     text-transform: uppercase;
     padding:3px;
   }
- #menu-item-35 a{
+ #menu-item-84 a{
     background:white !important;
   }
   .responsive-navigation_nav li a{
