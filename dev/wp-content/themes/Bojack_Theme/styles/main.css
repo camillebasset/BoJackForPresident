@@ -617,3 +617,6 @@ button.stripe-button-el span{
 .donationbloc h1{
   color: black;
 }
+.timeline-Footer footer{
+  display: none !important;
+}
