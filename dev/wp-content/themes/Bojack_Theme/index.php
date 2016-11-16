@@ -74,6 +74,7 @@ get_header(); //appel du template header.php  ?>
     ?>
     <div class="col-md-6 col-xs-12">
         <div class="twitter">
+            <a class="twitter-timeline" data-height="640" data-link-color="#9E6C4B" href="https://twitter.com/BoJackHorseman">Tweets by TwitterDev</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </div>
 
