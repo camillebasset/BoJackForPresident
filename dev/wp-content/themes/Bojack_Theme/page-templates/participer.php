@@ -20,7 +20,6 @@ get_header(); //appel du template header.php  ?>
         <div class="map col-md-6">
         	[powr-map id=18bbd0b0_1479049388]
         </div>
-         <a href="participer" class="join">Participer</a>
          <h1 class="col-md-12">SUIVEZ NOUS</h1>
         <div class="col-md-12">
         	<p class="follow">Pour suivre l’actualité de la campagne en direct, rien de mieux que de nous suivre sur les réseaux sociaux que nous utilisons.<br> Chaque jour vous accéder au plus près de l’équipe de BoJack Horseman</p>

@@ -25,12 +25,10 @@ get_header(); //appel du template header.php  ?>
         $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
     ?>
         <article class="col-md-12" id="actualite_<?php the_ID(); ?>">
-            <div class="col-md-6 img_actu" style="background-image: url('<?php echo $thumb['0'];?>')">
-                <div class="fadeEffect">
-                    <h1><?php the_title(); ?></h1>
-                </div>
+            <div class="col-xs-12 col-md-6 img_actu" style="background-image: url('<?php echo $thumb['0'];?>')">
+                <h1><?php the_title(); ?></h1>
             </div>
-            <div class="col-md-6">
+            <div class="col-xs-12 col-md-6">
               <p><?php the_content(); ?></p>
             </div>
         </article>

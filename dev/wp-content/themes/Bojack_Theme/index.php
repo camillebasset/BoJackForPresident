@@ -11,7 +11,6 @@ get_header(); //appel du template header.php  ?>
 <div class="row bojack_home">
     <div class="col-xs-12">
         <div class="last_actu" style="background-image: url('<?php echo $thumb['0'];?>')">
-                <div class="fadeEffect">
                 <?php
                     // boucle WordPress
                     if (have_posts()){
@@ -28,15 +27,12 @@ get_header(); //appel du template header.php  ?>
                     <?php
                     }
                 ?>
-                </div>
         </div>
     </div>
 
     <div class="col-md-6 col-xs-12">
         <div class="movement">
-            <div class="fadeEffect">
-                <h1>Rejoignez le mouvement</h1>
-            </div>
+            <h1>Rejoignez le mouvement</h1>
         </div>
     </div>
     <?php 
@@ -57,9 +53,7 @@ get_header(); //appel du template header.php  ?>
     ?>
     <div class="col-md-6 col-xs-12">
         <div class="actus" style="background-image: url('<?php echo $thumb_actu['0'];?>')" >
-            <div class="fadeEffect">
-                <a href="actualite"><h1>Actualités</h1></a>
-            </div>
+            <a href="actualite"><h1>Actualités</h1></a>
         </div>
     </div>
     <?php      

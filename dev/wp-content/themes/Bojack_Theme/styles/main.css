@@ -3,6 +3,9 @@ body,html{
   font-family: 'Source Sans Pro', sans-serif;
   height:100%;
 }
+#sidebar{
+  display: none;
+}
 p{
   font-size: 16px !important;
 }
@@ -62,11 +65,14 @@ header#header{
   font-weight: bold;
   font-size: 15px;
 }
-.menu-item-84 a{
+.menu-item-93 a{
   padding: 8px 18px;
   background: red;
   border-radius: 25px;
   color: white !important;
+}
+.menu-item-93 a:hover{
+  color:white !important;
 }
 /*********************
 TIMELINE
@@ -554,7 +560,7 @@ footer.footer{
   .responsive-navigation_nav li{
     text-align: center;
     text-transform: uppercase;
-    padding:3px;
+    padding:10px;
   }
  #menu-item-84 a{
     background:white !important;
@@ -583,4 +589,32 @@ footer.footer{
     color:black !important;
     background:white !important;
   }
+}
+.donationbloc{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.sc-checkout-form{
+  display: inline-block;
+  margin-top: 60px;
+}
+button.stripe-button-el{
+  padding: 8px 18px;
+  margin: 10px;
+  height: 50px;
+  line-height: 50px;
+  background-image: none !important;
+  background: red;
+  border-radius: 25px;
+  color: white !important;
+}
+
+button.stripe-button-el span{
+  background: none;
+  border: none;
+}
+
+.donationbloc h1{
+  color: black;
 }

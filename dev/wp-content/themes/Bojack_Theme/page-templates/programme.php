@@ -23,7 +23,7 @@ get_header(); //appel du template header.php  ?>
             <br></br>
             Pour ces raisons et 67 autres, nous vous invitons à considérer BoJack comme l’unique candidat légitime de ces élections présidentielles. N’hésitez pas à participer à nos meetings pour en savoir plus , discuter avec nos intervenants et Horseman lui-même, pour une France libre et libérée !
             </p>
-            <a href="participer" class="join">S'inscrire</a>
+            <a href="devenir-membre" class="join">S'inscrire</a>
         </article>
     </div>
 </section>
