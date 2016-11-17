@@ -668,3 +668,17 @@ button.stripe-button-el span{
 .timeline-Footer footer{
   display: none !important;
 }
+
+/* woocommerce */
+#content{
+  margin-top: 100px;
+}
+.button_woo{
+  background-color: red !important;
+}
+.button_woo:hover{
+  color: white !important;
+}
+.product_title{
+  color: black;
+}

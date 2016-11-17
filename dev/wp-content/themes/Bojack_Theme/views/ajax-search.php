@@ -1,12 +1,9 @@
 <div class="searchBar">
 	<form action="">
-		<input type="search" name="search" id="searchAjaxInput" placeholder="Rechercher une annonce"/>
+		<input type="search" name="search" id="searchAjaxInput" placeholder="Rechercher une actualité"/>
 		<div id="searchResult">
 			<ul>
-				<li>test</li>
-				<li>test</li>
-				<li>test</li>
-				<li>test</li>
+				
 			</ul>
 		</div>
 	</form>
