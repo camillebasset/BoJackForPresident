@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-    var rechercheEnCours=false;
+  var rechercheEnCours=false;
   $('section#slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -27,6 +27,7 @@ jQuery(document).ready(function($){
             }
         );
     }
+    return false;
   });
 
   $("body").on('click', "#ancre_article", function() {
@@ -41,7 +42,7 @@ jQuery(document).ready(function($){
    function(){
     $('#searchResult').hide();
      },
-    20000
+    200
   );
 });
 

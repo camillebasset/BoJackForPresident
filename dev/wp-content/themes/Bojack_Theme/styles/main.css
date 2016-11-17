@@ -85,6 +85,9 @@ a:hover{
 .red{
   color:red;
 }
+input[type="submit"] {
+  outline: none;
+}
 .join{
   clear: both;
   display:block;
