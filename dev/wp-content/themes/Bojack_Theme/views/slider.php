@@ -22,6 +22,7 @@
           </div>
           <div class="slide__caption">
               <span><?= the_field('titre')?></span>
+               <p><?= the_field('sous-titre')?></p>
           </div>
       </div>
     </div>

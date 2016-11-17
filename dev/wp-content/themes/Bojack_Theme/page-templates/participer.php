@@ -24,15 +24,11 @@ get_header(); //appel du template header.php  ?>
         <div class="col-md-12">
         	<p class="follow">Pour suivre l’actualité de la campagne en direct, rien de mieux que de nous suivre sur les réseaux sociaux que nous utilisons.<br> Chaque jour vous accéder au plus près de l’équipe de BoJack Horseman</p>
         </div>
-        <div class="col-md-6">
-        	<div class="col-md-12 twitterBloc">
-        		<p class="imgDescription"><a target="_blank" href="https://twitter.com/BoJackHorseman">Twitter</a></p>
-        	</div>
-        </div>
-        <div class="col-md-6">
-        	<div class="col-md-12 instaBloc">
-        		<p class="imgDescription">Instagram</p>
-        	</div>
+        <div class="col-md-12 contain-social">
+          <div class="col-xs-2 col-xs-offset-5 social-link">
+            <span><a target="_blank" href="https://twitter.com/BoJackHorseman"><i class="fa fa-twitter fa-2x"></i></a></span>
+          	<span><a target="_blank" href="https://twitter.com/BoJackHorseman"><i class="fa fa-instagram fa-2x"></i></a></span>
+          </div>
         </div>
     </div>
 </section>
