@@ -3,85 +3,12 @@ body,html{
   font-family: 'Source Sans Pro', sans-serif;
   height:100%;
 }
-#sidebar{
-  display: none;
-}
-p{
-  font-size: 16px !important;
-}
-.devenir_membre{
-  color:black;
-  text-align: center;
-}
-.emptyMembres{
-  text-align: center;
-  display: block;
-}
-.responsiveImage img{
-  max-width:100%;
-  height:auto;
-  margin: 0 auto;
-  display: block;
-}
-.updated p{
-  color:red;
-  text-align: center;
-}
-.red{
-  color:red;
-}
-.form-membre{
-  padding-left: 0;
-  padding-right: 0;
-}
-.bojackProgramme a:hover{
-  color:white !important;
-}
-.listMembres ul{
-  padding-left:0; 
-  margin-top: 50px;
-}
-.listMembres li{
-  list-style: none;
-  background:#ececec;
-  display: inline-block;
-  padding:15px;
-}
-.listMembres h2{
-  color:black;
-}
-.acf-field{
-  padding-left: 0 !important;
-}
-.acf-form-submit input{
-  background: red;
-  padding:10px;
-  display: block;
-  margin: 0 auto;
-  border-radius: 20px;
-  width: 150px;
-  border:none;
-  color:white;
-}
-a:hover{
-  text-decoration: none !important;
-}
-.current_page_item a{
-  color:red !important;
-}
 /**************
 
     HEADER
 
 ***************/
-
-header#header{
-
-}
-.home .fadeEffect{
-  position: relative;
-}
- .menu-header-container{
+.menu-header-container{
   background:white;
   height:100px;
   position: absolute;
@@ -113,6 +40,9 @@ header#header{
   font-weight: bold;
   font-size: 15px;
 }
+.current_page_item a{
+  color:red !important;
+}
 .menu-item-93 a{
   padding: 8px 18px;
   background: red;
@@ -122,6 +52,338 @@ header#header{
 .menu-item-93 a:hover{
   color:white !important;
 }
+
+/*********************
+
+
+      CONTENT
+
+
+**********************/
+/* General */
+h1{
+  text-transform:uppercase;
+  color:white;
+  font-size:24px;
+  margin-top:40px;
+  margin-bottom:30px;
+}
+h2{
+  color:white;
+  font-size:20px;
+  margin-bottom:4px;
+}
+h3{
+  font-size:13px;
+  margin-top:0px;
+  margin-bottom:20px;
+}
+a:hover{
+  color:inherit !important;
+  text-decoration: none !important;
+}
+.red{
+  color:red;
+}
+.join{
+  clear: both;
+  display:block;
+  text-align:center;
+  margin:0 auto;
+  padding: 8px 24px;
+  background: red;
+  border-radius: 25px;
+  color: white;
+  width: 150px;
+  font-size: 18px;
+}
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  text-align: center;
+  line-height: 300px;
+  font-size: 28px !important;
+  background: rgba(222, 222, 222, 0.72);
+  color: #444;
+  visibility: hidden;
+  opacity: 0;
+  text-transform: uppercase;
+  -webkit-transition: visibility opacity 0.5s;
+}
+.responsiveImage img{
+  max-width:100%;
+  height:auto;
+  margin: 0 auto;
+  display: block;
+}
+.twitterBloc:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+.instaBloc:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+p.follow{
+  text-align:center;
+}
+/* Portrait */
+.portraitBojack h1{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.portraitBojack h2{
+  color: black;
+}
+.portraitBojack p{
+  text-align: justify;
+}
+.image_portraitBojack{
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+.bojackParticiper h1{
+  text-align: center;
+  color:black;
+  font-size: 32px;
+}
+
+/* Page actu */
+.img_actu{
+  height:300px;
+}
+.img_actu h1{
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 22px;
+  line-height: 300px;
+}
+article{
+  margin-top: 50px;
+}
+/* Slider */
+#slider{
+  height: 100vh;
+}
+.slick-slide img{
+  width:100% !important;
+  height: 100vh;
+}
+.absolute-text-centered{
+  height: 100%;
+  width: 100%;
+  color: white;
+  position: absolute;
+}
+.slide{
+  position: relative;
+}
+.slide__caption {
+  bottom: 0;
+  min-height: 200px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 99999;
+  text-align: center;
+  color:white;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+.slideimg{
+  width: 100% !important;
+  height: 100vh !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slick-arrow{
+  display: none !important;
+}
+/* ACF */
+.acf-field{
+  padding-left: 0 !important;
+}
+.acf-form-submit input{
+  background: red;
+  padding:10px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 150px;
+  border:none;
+  color:white;
+}
+/* Programme */
+.bojackProgramme a:hover{
+  color:white !important;
+}
+.bojackProgramme h1{
+  color:black;
+  font-size: 35px;
+  text-align:left;
+}
+.bojackProgramme p{
+  font-size: 20px !important;
+}
+#bojackProgramme a{
+  margin-top: 40px;
+}
+/* HOME */
+.twitterBloc{
+  background:url('../img/twitter_feed.png');
+  background-size: 100%;
+  margin-top: 30px;
+  height:300px;
+}
+.instaBloc{
+  margin-top: 30px;
+  background:url('../img/instagram.png');
+  background-size: 100%;
+  background-position: center;
+  height:300px;
+}
+.last_actu{
+  margin-top: 50px;
+  height:300px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.last_actu article:nth-child(3n +1){
+  clear:both;
+}
+.last_actu article{
+  margin-bottom:30px;
+}
+.last_actu h1{
+  line-height: 300px;
+  font-size: 45px;
+}
+.bojack_home div{
+  margin-top: 20px;
+}
+.mov_and_actu{
+  margin-top: 50px;
+}
+.movement, .actus{
+  height: 300px;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.movement{
+  background:url('../img/movement.jpg');
+}
+.twitter{
+  height:640px;
+  border:1px solid #dedede;
+}
+.instagram{
+  background:url(../img/instagram.png);
+  height: 300px;
+  border:1px solid #dedede;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.boutique{
+  background: url(../img/boutique.jpg);
+  background-size: contain;
+  height: 300px;
+  border:1px solid #dedede;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 20px !important;
+}
+.movement h1, .actus h1{
+  line-height: 300px;
+  text-align: center;
+  font-size: 40px;
+}
+/* LISTE MEMBRE */
+.listMembres ul{
+  padding-left:0; 
+  margin-top: 50px;
+}
+.listMembres li{
+  list-style: none;
+  background:#ececec;
+  display: inline-block;
+  padding:15px;
+}
+.listMembres h2{
+  color:black;
+}
+.devenir_membre{
+  color:black;
+  text-align: center;
+}
+.emptyMembres{
+  text-align: center;
+  display: block;
+}
+.form-membre{
+  padding-left: 0;
+  padding-right: 0;
+}
+.updated p{
+  color:red;
+  text-align: center;
+}
+/***************
+
+    PAGENAVI
+
+***************/
+.pagination{
+  display:block;
+}
+.wp-pagenavi{
+  text-align:center;
+}
+.wp-pagenavi span, .wp-pagenavi span.current{
+  color:#F56B2A;
+  border-color:#F56B2A;
+}
+.wp-pagenavi a{
+  background:#F56B2A;
+  text-decoration:none;
+  color:#FFFFFF;
+  border-color:#F56B2A;
+}
+.wp-pagenavi a:hover{
+  background:#FFFFFF;
+  color:#F56B2A;
+}
+.logomobile{
+  display: none;
+}
+/***************
+
+    FOOTER
+
+***************/
+footer.footer{
+  background:#181818;
+  margin-top:50px;
+}
+.ani_glow{
+  opacity: 0;
+  display: none !important;
+}
+.timeline-Footer footer{
+  display: none !important;
+}
+
 /*********************
 TIMELINE
 **********************/
@@ -310,283 +572,62 @@ TIMELINE
         right: auto;
     }
 }
-/*********************
-
-
-      CONTENT
-
-
-**********************/
-.twitterBloc{
-  background:url('../img/twitter_feed.png');
-  background-size: 100%;
-  margin-top: 30px;
-  height:300px;
-}
-.instaBloc{
-  margin-top: 30px;
-  background:url('../img/instagram.png');
-  background-size: 100%;
-  background-position: center;
-  height:300px;
-}
-.imgDescription {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  text-align: center;
-  line-height: 300px;
-  font-size: 28px !important;
-  background: rgba(222, 222, 222, 0.72);
-  color: #444;
-  visibility: hidden;
-  opacity: 0;
-  text-transform: uppercase;
-  -webkit-transition: visibility opacity 0.5s;
-}
-.twitterBloc:hover .imgDescription {
-  visibility: visible;
-  opacity: 1;
-}
-.instaBloc:hover .imgDescription {
-  visibility: visible;
-  opacity: 1;
-}
-p.follow{
-  text-align:center;
-}
-.portraitBojack h1{
-  color: black;
-  font-weight: bold;
-  text-align: center;
-}
-.portraitBojack h2{
-  color: black;
-}
-.portraitBojack p{
-  text-align: justify;
-}
-.image_portraitBojack{
+/* DONATION */
+.donationbloc{
   width: 100%;
-  height: 100%;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
-}
-.bojackParticiper h1{
+  margin: 0 auto;
   text-align: center;
-  color:black;
-  font-size: 32px;
 }
-
-.fadeEffect{
-  background: black;
-  position: absolute;
-  opacity: 0.5;
-  left: 0;
-  right: 0;
+.sc-checkout-form{
+  display: inline-block;
+  margin-top: 60px;
 }
-#slider{
-  height: 100vh;
-}
-.slick-slide img{
-  width:100% !important;
-  height: 100vh;
-}
-.absolute-text-centered{
-  height: 100%;
-  width: 100%;
-  color: white;
-  position: absolute;
-}
-.slide{
-  position: relative;
-}
-.slide__caption {
-  bottom: 0;
-  min-height: 200px;
-  left: 0;
-  position: absolute;
-  width: 100%;
-  z-index: 99999;
-  text-align: center;
-  color:white;
-  text-transform: uppercase;
-  font-size: 45px;
-}
-.slideimg{
-  width: 100% !important;
-  height: 100vh !important;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.img_actu{
-  height:300px;
-}
-.img_actu h1{
-  text-align: center;
-  color: white;
-  margin: 0;
-  font-size: 22px;
-  line-height: 300px;
-}
-article{
-  margin-top: 50px;
-}
-article:nth-child(1n+2) .img_actu{
-  float:right;
-}
-.slick-arrow{
-  display: none !important;
-}
-.bojackProgramme h1{
-  color:black;
-  font-size: 35px;
-  text-align:left;
-}
-.bojackProgramme p{
-  font-size: 20px !important;
-}
-.join{
-  clear: both;
-  display:block;
-  text-align:center;
-  margin:0 auto;
-  padding: 8px 24px;
+button.stripe-button-el{
+  padding: 8px 18px;
+  margin: 10px;
+  height: 50px;
+  line-height: 50px;
+  background-image: none !important;
   background: red;
   border-radius: 25px;
-  color: white;
-  width: 150px;
-  font-size: 18px;
+  color: white !important;
 }
-#bojackProgramme a{
-  margin-top: 40px;
+
+button.stripe-button-el span{
+  background: none;
+  box-shadow: none;
 }
-a:hover{
-  color:inherit !important;
+button.stripe-button-el:focus{
+  outline: none;
 }
-h1{
-  text-transform:uppercase;
+button.stripe-button-el:hover{
+  background: #444;
   color:white;
-  font-size:24px;
-  margin-top:40px;
-  margin-bottom:30px;
+  transition: all 0.2s ease-in-out;
 }
-h2{
-  color:white;
-  font-size:20px;
-  margin-bottom:4px;
+button.stripe-button-el:active{
+  background: #444;
 }
-h3{
-  font-size:13px;
-  margin-top:0px;
-  margin-bottom:20px;
+.donationbloc h1{
+  color: black;
 }
-.last_actu{
-  margin-top: 50px;
-  height:300px;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
+/* woocommerce modifs */
+#content{
+  margin-top: 100px;
 }
-.last_actu article:nth-child(3n +1){
-  clear:both;
+.button_woo{
+  background-color: red !important;
 }
-.last_actu article{
-  margin-bottom:30px;
+.button_woo:hover{
+  color: white !important;
 }
-.last_actu h1{
-  line-height: 300px;
-  font-size: 45px;
+.product_title{
+  color: black;
 }
-.bojack_home div{
-  margin-top: 20px;
-}
-.mov_and_actu{
-  margin-top: 50px;
-}
-.movement, .actus{
-  height: 300px;
-  background-size: cover !important;
-  background-position: center !important;
-}
-.movement{
-  background:url('../img/movement.jpg');
-}
-.actus{
-
-}
-.twitter{
-  height:640px;
-  border:1px solid #dedede;
-}
-.instagram{
-  background:url(../img/instagram.png);
-  height: 300px;
-  border:1px solid #dedede;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.boutique{
-  background: url(../img/boutique.jpg);
-  background-size: contain;
-  height: 300px;
-  border:1px solid #dedede;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-top: 20px !important;
-}
-.movement h1, .actus h1{
-  line-height: 300px;
-  text-align: center;
-  font-size: 40px;
-}
-/***************
-
-    PAGENAVI
-
-***************/
-.pagination{
-  display:block;
-}
-.wp-pagenavi{
-  text-align:center;
-}
-.wp-pagenavi span, .wp-pagenavi span.current{
-  color:#F56B2A;
-  border-color:#F56B2A;
-}
-.wp-pagenavi a{
-  background:#F56B2A;
-  text-decoration:none;
-  color:#FFFFFF;
-  border-color:#F56B2A;
-}
-.wp-pagenavi a:hover{
-  background:#FFFFFF;
-  color:#F56B2A;
-}
-.logomobile{
+#sidebar{
   display: none;
 }
-/***************
-
-    FOOTER
-
-***************/
-footer.footer{
-  background:#181818;
-  margin-top:50px;
-}
-.ani_glow{
-  opacity: 0;
-  display: none !important;
-}
+/* MOBILE */
 @media screen and (max-width: 1200px){
   .menu_header li{
     padding:0px 5px;
@@ -636,49 +677,4 @@ footer.footer{
     color:black !important;
     background:white !important;
   }
-}
-.donationbloc{
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-.sc-checkout-form{
-  display: inline-block;
-  margin-top: 60px;
-}
-button.stripe-button-el{
-  padding: 8px 18px;
-  margin: 10px;
-  height: 50px;
-  line-height: 50px;
-  background-image: none !important;
-  background: red;
-  border-radius: 25px;
-  color: white !important;
-}
-
-button.stripe-button-el span{
-  background: none;
-  border: none;
-}
-
-.donationbloc h1{
-  color: black;
-}
-.timeline-Footer footer{
-  display: none !important;
-}
-
-/* woocommerce */
-#content{
-  margin-top: 100px;
-}
-.button_woo{
-  background-color: red !important;
-}
-.button_woo:hover{
-  color: white !important;
-}
-.product_title{
-  color: black;
 }
