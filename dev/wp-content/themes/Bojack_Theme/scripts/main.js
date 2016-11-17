@@ -31,7 +31,6 @@ jQuery(document).ready(function($){
   });
 
   $("body").on('click', "#ancre_article", function() {
-    console.log('coucou');
       $('html, body').animate({
           scrollTop: $( $(this).attr('href') ).offset().top
       }, 500);

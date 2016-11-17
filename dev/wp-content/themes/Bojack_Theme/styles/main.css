@@ -702,13 +702,15 @@ TIMELINE
     margin: 0 auto;
     margin-top:10px;
   } 
+  #searchAjaxInput {
+      width: 100% !important;
+    }
 }
 @media (max-width: 767px) {
 
     ul.timeline:before {
         left: 40px;
     }
-
     ul.timeline > li > .timeline-panel {
         width: calc(100% - 90px);
         width: -moz-calc(100% - 90px);
@@ -783,6 +785,25 @@ button.stripe-button-el:active{
 .button_woo{
   background-color: red !important;
 }
+.woocommerce-breadcrumb{
+  display:none;
+}
+.center{
+  text-align: center;
+}
+.bag a{
+  display: block;
+  text-align: center;
+}
+.bag p{
+  text-align: center;
+}
+.bag{
+  width:100px;
+  padding: 10px;
+  border:1px solid #dedede;
+  padding-bottom: 0;
+}
 .button_woo:hover{
   color: white !important;
 }
@@ -796,6 +817,9 @@ button.stripe-button-el:active{
 @media screen and (max-width: 1200px){
   .menu_header li{
     padding:0px 5px;
+  }
+  .bag{ 
+    margin:auto;
   }
   .menu-header-container{
     height:auto;

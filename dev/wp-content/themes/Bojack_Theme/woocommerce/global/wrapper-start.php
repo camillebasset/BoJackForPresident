@@ -21,10 +21,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 $template = get_option( 'template' );
-
 switch( $template ) {
 	case 'twentyeleven' :
 		echo '<div id="primary"><div id="content" role="main" class="twentyeleven">';
+
 		break;
 	case 'twentytwelve' :
 		echo '<div id="primary" class="site-content"><div id="content" role="main" class="twentytwelve">';
@@ -43,5 +43,11 @@ switch( $template ) {
 		break;
 	default :
 		echo '<div class="container"><div id="content" role="main">';
+		echo '<div class="bag">
+				<a href="'.get_page_link(75).'">
+					<i class="fa fa-shopping-bag fa-2x red center"></i>
+				</a>
+				<p>Mon panier</p>
+			  </div>';
 		break;
 }
