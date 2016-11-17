@@ -160,6 +160,10 @@ p.follow{
 }
 
 /* Page actu */
+.actu-bandeau{
+  height: 175px;
+  background-image:url('../img/');
+}
 .img_actu{
   height:300px;
 }

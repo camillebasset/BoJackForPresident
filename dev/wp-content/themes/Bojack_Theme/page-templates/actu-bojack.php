@@ -3,9 +3,12 @@
 Template Name: Actualités
 */
 get_header(); //appel du template header.php  ?>
+<div class="col-xs-12 actu-bandeau">
+</div>
 <section class="container">
 
     <div class="row bojackActu">
+
     <div class="col-xs-12 col-md-4">
         <?php
           get_template_part('views/ajax-search');
